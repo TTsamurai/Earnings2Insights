@@ -25,7 +25,7 @@ overview paper:
 ## Files
 
 - `wide_data_public.csv`: Aggregated evaluation responses with financial decision targets
-  and review metadata. The file is regenerated when `result_analysis.py` is executed.
+  and review metadata. 
 
 ## Columns
 
@@ -43,12 +43,6 @@ overview paper:
 - `team_id`: Identifier for the evaluation team.
 - `company_id`: Identifier for the underlying company.
 - `company_name`: Name of the underlying company.
-
-## Regeneration
-
-1. Ensure the required source CSV files are available in `human_evaluation_result_analysis`.
-2. Run `python result_analysis.py` from the repository root.
-3. The updated `wide_data_public.csv` will be written to this directory.
 
 ## License and Privacy
 
